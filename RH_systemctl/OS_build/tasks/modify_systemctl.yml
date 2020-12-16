@@ -1,0 +1,16 @@
+---
+- name: Execute module. (service start {{ parameter.name }})
+  systemd:
+    name: "{{ parameter.name }}"
+    enabled: yes
+  when:
+    - parameter.action == 'true'
+    - parameter.status == 'enabled'
+
+- name: Execute module. (service stop {{ parameter.name }})
+  systemd:
+    name: "{{ parameter.name }}"
+    enabled: no
+  when:
+    - parameter.action == 'true'
+    - parameter.status == 'disabled'

@@ -1,0 +1,4 @@
+---
+- name: Execute role. (OS-RHEL7/{{ outer_item }}/OS_build)
+  import_role:
+    name: OS-RHEL7/{{ outer_item }}/OS_build

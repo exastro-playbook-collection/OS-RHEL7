@@ -1,0 +1,4 @@
+---
+- name: Execute task. (modify.yml)
+  import_tasks: modify.yml
+  when: VAR_RH_rpm is defined

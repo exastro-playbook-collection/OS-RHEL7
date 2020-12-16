@@ -1,0 +1,5 @@
+---
+file:
+  - /etc/pam.d/system-auth-ac
+  - /etc/pam.d/password-auth-ac
+  - /etc/login.defs
