@@ -75,8 +75,6 @@ VAR_RH_limits:
     │    └── OS-RHEL7
     │         └── RH_limits/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml
     │                   │      main.yml

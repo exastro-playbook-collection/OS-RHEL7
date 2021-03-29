@@ -35,7 +35,7 @@ OS-RHEL7/RH_systemctl/OS_gatheringロールを利用します。
 | ---- | ----------- | 
 | `VAR_RH_systemctl` | | 
 | `- name` | システムサービス名 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;`status` | システムサービス自動起動の状態<br>enabled: システムサービス自動起動を有効<br>disabled: システムサービス自動起動を無効 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;`status` | enabled: ユニットファイルを有効化<br>disabled: ユニットファイルを無効化<br>masked: ユニットファイルを完全無効化<br>maske_off: 完全無効化されているユニットファイルの解除 | 
 | &nbsp;&nbsp;&nbsp;&nbsp;`action` | 構築時の設定<br>true: 設定を行う<br>false: 設定を行わない | 
 
 ### Example
@@ -47,6 +47,9 @@ VAR_RH_systemctl:
 - action: 'false'
   name: kdump.service
   status: enabled
+- action: 'false'
+  name: xinetd.service
+  status: masked
 ・・・
 ~~~
 
@@ -75,12 +78,13 @@ VAR_RH_systemctl:
     │    └── OS-RHEL7
     │         └── RH_systemctl/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
+    │                   │      check_parameter.yml
+    │                   │      check.yml
     │                   │      main.yml
+    │                   │      modify_exe.yml
+    │                   │      modify_systemctl.yml
     │                   │      modify.yml
-    │                   │      modify_dir.yml
     │                   └─ README.md
     └─ master_playbook.yml
 ~~~
@@ -101,6 +105,9 @@ VAR_RH_systemctl:
       - action: 'false'
         name: kdump.service
         status: enabled
+      - action: 'false'
+        name: xinetd.service
+        status: masked
       ・・・
   strategy: free
 ~~~
@@ -131,6 +138,9 @@ VAR_RH_systemctl:
       - action: 'false'
         name: kdump.service
         status: enabled
+      - action: 'false'
+        name: xinetd.service
+        status: masked
       ・・・
   strategy: free
 
@@ -165,6 +175,7 @@ VAR_RH_systemctl:
 
 # Remarks
 -------
+完全無効化されているユニットファイルの解除は、ユニットファイルが完全無効化されている場合のみ実施されます。
 
 # License
 -------

@@ -76,8 +76,6 @@ VAR_RH_grub2:
     │    └── OS-RHEL7
     │         └── RH_grub2/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      main.yml
     │                   │      modify_property.yml

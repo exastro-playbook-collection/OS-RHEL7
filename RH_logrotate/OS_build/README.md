@@ -85,8 +85,6 @@ VAR_RH_logrotate:
     │    └── OS-RHEL7
     │         └── RH_logrotate/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml
     │                   │      main.yml

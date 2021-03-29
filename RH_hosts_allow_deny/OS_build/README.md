@@ -85,8 +85,6 @@ VAR_RH_hosts_allow_deny:
     │    └── OS-RHEL7
     │         └── RH_hosts_allow_deny/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml
     │                   │      main.yml

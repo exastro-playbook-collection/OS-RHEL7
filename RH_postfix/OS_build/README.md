@@ -75,8 +75,6 @@ VAR_RH_postfix:
     │    └── OS-RHEL7
     │         └── RH_postfix/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml
     │                   │      main.yml

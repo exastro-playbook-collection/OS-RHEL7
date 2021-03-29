@@ -85,8 +85,6 @@ VAR_RH_sudo:
     │    └── OS-RHEL7
     │         └── RH_sudo/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml
     │                   │      main.yml

@@ -77,8 +77,6 @@ VAR_RH_firewalld:
     │    └── OS-RHEL7
     │         └── RH_firewalld/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml
     │                   │      main.yml

@@ -39,7 +39,7 @@ OS-RHEL7/RH_file_access/OS_gatheringロールを利用します。
 | &nbsp;&nbsp;&nbsp;&nbsp;`group` | Group | 
 | &nbsp;&nbsp;&nbsp;&nbsp;`mode` | Mode | 
 | &nbsp;&nbsp;&nbsp;&nbsp;`symbolic_link` | シンボリックリンク | 
-| &nbsp;&nbsp;&nbsp;&nbsp;`action` | 構築時の設定<br>file: ファイル更新<br>link: シンボリックリンク作成<br>absent: ディレクトリ、シンボリックリンク削除 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;`action` | 構築時の設定<br>file: ファイル更新<br>link: シンボリックリンク作成<br>absent: ファイル、シンボリックリンク削除 | 
 
 ### Example
 ~~~
@@ -82,12 +82,12 @@ VAR_RH_file_access:
     │    └── OS-RHEL7
     │         └── RH_file_access/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
+    │                   │      check_parameter.yml
+    │                   │      check.yml
     │                   │      main.yml
-    │                   │      modify.yml
     │                   │      modify_file.yml
+    │                   │      modify.yml
     │                   └─ README.md
     └─ master_playbook.yml
 ~~~

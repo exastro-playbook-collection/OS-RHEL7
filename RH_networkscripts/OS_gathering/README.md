@@ -140,8 +140,6 @@ VAR_RH_networkscripts:
     │                   │      main.yml
     │                   │── files/
     │                   │      extracting.py
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      check.yml
     │                   │      gathering.yml

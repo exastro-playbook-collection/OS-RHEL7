@@ -72,12 +72,12 @@ VAR_RH_rpm:
     │    └── OS-RHEL7
     │         └── RH_rpm/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
+    │                   │      check_parameter.yml
+    │                   │      check.yml
     │                   │      main.yml
-    │                   │      modify.yml
     │                   │      modify_rpm.yml
+    │                   │      modify.yml
     │                   └─ README.md
     └─ master_playbook.yml
 ~~~

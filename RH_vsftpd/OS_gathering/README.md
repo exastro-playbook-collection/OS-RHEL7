@@ -132,8 +132,6 @@ VAR_RH_vsftpd:
     │                   │      main.yml
     │                   │── files/
     │                   │      extracting.py
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      check.yml
     │                   │      gathering.yml

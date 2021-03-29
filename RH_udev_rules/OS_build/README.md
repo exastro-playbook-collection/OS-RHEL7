@@ -70,8 +70,6 @@ VAR_RH_udev_rules:
     │    └── OS-RHEL7
     │         └── RH_udev_rules/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml
     │                   │      main.yml

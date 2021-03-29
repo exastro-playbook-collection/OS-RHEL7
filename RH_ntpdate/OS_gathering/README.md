@@ -95,7 +95,7 @@ Ansible Role: OS-RHEL7/RH_ntpdate/OS_gathering
 | Name | Description | 
 | ---- | ----------- | 
 | `VAR_RH_ntpdate` | | 
-| `- path` | ファイルパス //etc/sysconfig/ntpdate | 
+| `- path` | ファイルパス /etc/sysconfig/ntpdate | 
 | &nbsp;&nbsp;&nbsp;&nbsp;`text` | ntpdateファイルの内容 | 
 
 ### Example
@@ -127,8 +127,6 @@ VAR_RH_ntpdate:
     │                   │      main.yml
     │                   │── files/
     │                   │      extracting.py
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      check.yml
     │                   │      gathering.yml

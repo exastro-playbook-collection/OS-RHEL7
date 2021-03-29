@@ -75,8 +75,6 @@ VAR_RH_securetty:
     │    └── OS-RHEL7
     │         └── RH_securetty/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml
     │                   │      main.yml

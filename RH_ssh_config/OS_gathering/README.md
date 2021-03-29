@@ -131,8 +131,6 @@ VAR_RH_ssh_config:
     │                   │      main.yml
     │                   │── files/
     │                   │      extracting.py
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      check.yml
     │                   │      gathering.yml

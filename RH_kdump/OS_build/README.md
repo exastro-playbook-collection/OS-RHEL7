@@ -75,8 +75,6 @@ VAR_RH_kdump:
     │    └── OS-RHEL7
     │         └── RH_kdump/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml
     │                   │      main.yml

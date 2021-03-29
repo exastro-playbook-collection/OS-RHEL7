@@ -82,9 +82,9 @@ VAR_RH_directory:
     │    └── OS-RHEL7
     │         └── RH_directory/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
+    │                   │      check_parameter.yml
+    │                   │      check.yml
     │                   │      main.yml
     │                   │      modify.yml
     │                   │      modify_dir.yml

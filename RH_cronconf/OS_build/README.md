@@ -110,8 +110,6 @@ VAR_RH_cronconf:
     │    └── OS-RHEL7
     │         └── RH_cronconf/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml
     │                   │      main.yml

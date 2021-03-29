@@ -75,8 +75,6 @@ VAR_RH_logwatch:
     │    └── OS-RHEL7
     │         └── RH_logwatch/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml
     │                   │      main.yml

@@ -75,8 +75,6 @@ VAR_RH_inittab:
     │    └── OS-RHEL7
     │         └── RH_inittab/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml
     │                   │      main.yml

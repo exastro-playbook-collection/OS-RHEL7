@@ -1,7 +1,7 @@
 Ansible Role: OS-RHEL7/RH_user/OS_build
 =======================================================
 # Description
-本ロールは、RHEL7に関するユーザ設定についての情報の設定を行います。
+本ロールは、RHEL7に関するユーザー設定についての情報の設定を行います。
 
 # Supports
 - 管理マシン(Ansibleサーバ)
@@ -34,8 +34,8 @@ OS-RHEL7/RH_user/OS_gatheringロールを利用します。
 | Name | Description | 
 | ---- | ----------- | 
 | `VAR_RH_user` | | 
-| `- user_name` | ユーザ名 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;`user_id` | ユーザID | 
+| `- user_name` | ユーザー名 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;`user_id` | ユーザーID | 
 | &nbsp;&nbsp;&nbsp;&nbsp;`group_id` | グループID | 
 | &nbsp;&nbsp;&nbsp;&nbsp;`comment` | コメント | 
 | &nbsp;&nbsp;&nbsp;&nbsp;`home_dir` | ホームディレクトリ | 
@@ -94,12 +94,12 @@ VAR_RH_user:
     │    └── OS-RHEL7
     │         └── RH_user/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
+    │                   │      check_parameter.yml
+    │                   │      check.yml
     │                   │      main.yml
-    │                   │      modify.yml
     │                   │      modify_user.yml
+    │                   │      modify.yml
     │                   └─ README.md
     └─ master_playbook.yml
 ~~~

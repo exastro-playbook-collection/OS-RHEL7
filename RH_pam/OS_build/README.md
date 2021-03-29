@@ -95,8 +95,6 @@ VAR_RH_pam:
     │    └── OS-RHEL7
     │         └── RH_pam/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml
     │                   │      main.yml

@@ -75,8 +75,6 @@ VAR_RH_services:
     │    └── OS-RHEL7
     │         └── RH_services/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml
     │                   │      main.yml

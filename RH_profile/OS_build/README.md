@@ -1,7 +1,7 @@
 Ansible Role: OS-RHEL7/RH_profile/OS_build
 =======================================================
 # Description
-本ロールは、RHEL7に関するユーザ環境 bash、cshについての情報の設定を行います。
+本ロールは、RHEL7に関するユーザー環境 bash、cshについての情報の設定を行います。
 
 # Supports
 - 管理マシン(Ansibleサーバ)
@@ -95,8 +95,6 @@ VAR_RH_profile:
     │    └── OS-RHEL7
     │         └── RH_profile/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml
     │                   │      main.yml

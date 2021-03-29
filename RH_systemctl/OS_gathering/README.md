@@ -90,7 +90,7 @@ Ansible Role: OS-RHEL7/RH_systemctl/OS_gathering
 | ---- | ----------- | 
 | `VAR_RH_systemctl` | | 
 | `- name` | システムサービス名 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;`status` | システムサービス自動起動の状態<br>enabled: システムサービス自動起動を有効<br>disabled: システムサービス自動起動を無効 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;`status` | enabled: ユニットファイルが有効<br>disabled: ユニットファイルが無効<br>masked: ユニットファイルが完全無効化 | 
 | &nbsp;&nbsp;&nbsp;&nbsp;`action` | 構築時の設定<br>true: 設定を行う<br>false: 設定を行わない | 
 
 ### Example
@@ -102,6 +102,9 @@ VAR_RH_systemctl:
 - action: 'true'
   name: kdump.service
   status: enabled
+- action: 'false'
+  name: xinetd.service
+  status: masked
 ・・・
 ~~~
 
@@ -125,8 +128,6 @@ VAR_RH_systemctl:
     │                   │      main.yml
     │                   │── files/
     │                   │      extracting.py
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      check.yml
     │                   │      gathering.yml

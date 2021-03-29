@@ -72,7 +72,7 @@ Ansible Role: OS-RHEL7/RH_pam/OS_gathering
 | ---- | ----------- | 
 | `/etc/pam.d/system-auth-ac` | /etc/pam.d/system-auth-acファイル | 
 | `/etc/pam.d/password-auth-ac` | /etc/pam.d/password-auth-acファイル | 
-| `/etc/login.defs` | /etc/pam.d/system-auth-acファイル | 
+| `/etc/login.defs` | /etc/login.defsファイル | 
 
 ## 生成したパラメータの出力例
 
@@ -153,8 +153,6 @@ VAR_RH_pam:
     │                   │      main.yml
     │                   │── files/
     │                   │      extracting.py
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      check.yml
     │                   │      gathering.yml

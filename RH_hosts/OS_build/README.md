@@ -72,8 +72,6 @@ VAR_RH_hosts:
     │    └── OS-RHEL7
     │         └── RH_hosts/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml
     │                   │      main.yml

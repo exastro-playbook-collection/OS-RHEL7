@@ -86,8 +86,6 @@ VAR_RH_chrony:
     │    └── OS-RHEL7
     │         └── RH_chrony/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml
     │                   │      main.yml

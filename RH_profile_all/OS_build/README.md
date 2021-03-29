@@ -1,7 +1,7 @@
 Ansible Role: OS-RHEL7/RH_profile_all/OS_build
 =======================================================
 # Description
-本ロールは、RHEL7に関する全ユーザ共通設定(環境変数など)についての情報の設定を行います。
+本ロールは、RHEL7に関する全ユーザー共通設定(環境変数など)についての情報の設定を行います。
 
 # Supports
 - 管理マシン(Ansibleサーバ)
@@ -75,8 +75,6 @@ VAR_RH_profile_all:
     │    └── OS-RHEL7
     │         └── RH_profile_all/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml
     │                   │      main.yml

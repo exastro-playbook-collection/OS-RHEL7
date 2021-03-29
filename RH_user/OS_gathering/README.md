@@ -1,7 +1,7 @@
 Ansible Role: OS-RHEL7/RH_user/OS_gathering
 =======================================================
 # Description
-本ロールは、RHEL7に関するユーザ設定についての情報の取得を行います。
+本ロールは、RHEL7に関するユーザー設定についての情報の取得を行います。
 
 # Supports
 - 管理マシン(Ansibleサーバ)
@@ -95,8 +95,8 @@ Ansible Role: OS-RHEL7/RH_user/OS_gathering
 | Name | Description | 
 | ---- | ----------- | 
 | `VAR_RH_user` | | 
-| `- user_name` | ユーザ名 | 
-| &nbsp;&nbsp;&nbsp;&nbsp;`user_id` | ユーザID | 
+| `- user_name` | ユーザー名 | 
+| &nbsp;&nbsp;&nbsp;&nbsp;`user_id` | ユーザーID | 
 | &nbsp;&nbsp;&nbsp;&nbsp;`group_id` | グループID | 
 | &nbsp;&nbsp;&nbsp;&nbsp;`comment` | コメント | 
 | &nbsp;&nbsp;&nbsp;&nbsp;`home_dir` | ホームディレクトリ | 
@@ -152,8 +152,6 @@ VAR_RH_user:
     │                   │      main.yml
     │                   │── files/
     │                   │      extracting.py
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      check.yml
     │                   │      gathering.yml

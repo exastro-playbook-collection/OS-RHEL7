@@ -75,8 +75,6 @@ VAR_RH_init:
     │    └── OS-RHEL7
     │         └── RH_init/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml
     │                   │      main.yml

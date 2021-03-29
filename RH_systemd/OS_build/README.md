@@ -92,8 +92,6 @@ VAR_RH_systemd:
     │    └── OS-RHEL7
     │         └── RH_systemd/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      main.yml
     │                   │      modify_property.yml

@@ -75,8 +75,6 @@ VAR_RH_fstab:
     │    └── OS-RHEL7
     │         └── RH_fstab/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml
     │                   │      main.yml

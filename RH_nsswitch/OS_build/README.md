@@ -75,8 +75,6 @@ VAR_RH_nsswitch:
     │    └── OS-RHEL7
     │         └── RH_nsswitch/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml
     │                   │      main.yml

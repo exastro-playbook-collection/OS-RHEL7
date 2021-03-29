@@ -1,7 +1,7 @@
 Ansible Role: OS-RHEL7/RH_profile/OS_gathering
 =======================================================
 # Description
-本ロールは、RHEL7に関するユーザ環境 bash、cshについての情報の取得を行います。
+本ロールは、RHEL7に関するユーザー環境 bash、cshについての情報の取得を行います。
 
 # Supports
 - 管理マシン(Ansibleサーバ)
@@ -153,8 +153,6 @@ VAR_RH_profile:
     │                   │      main.yml
     │                   │── files/
     │                   │      extracting.py
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      check.yml
     │                   │      gathering.yml

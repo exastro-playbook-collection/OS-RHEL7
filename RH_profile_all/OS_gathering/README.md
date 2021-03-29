@@ -1,7 +1,7 @@
 Ansible Role: OS-RHEL7/RH_profile_all/OS_gathering
 =======================================================
 # Description
-本ロールは、RHEL7に関する全ユーザ共通設定(環境変数など)についての情報の取得を行います。
+本ロールは、RHEL7に関する全ユーザー共通設定(環境変数など)についての情報の取得を行います。
 
 # Supports
 - 管理マシン(Ansibleサーバ)
@@ -131,8 +131,6 @@ VAR_RH_profile_all:
     │                   │      main.yml
     │                   │── files/
     │                   │      extracting.py
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      check.yml
     │                   │      gathering.yml

@@ -97,7 +97,7 @@ Ansible Role: OS-RHEL7/RH_group/OS_gathering
 | `VAR_RH_group` | | 
 | `- group_name` | グループ名 | 
 | &nbsp;&nbsp;&nbsp;&nbsp;`group_id` | グループID | 
-| &nbsp;&nbsp;&nbsp;&nbsp;`user_name` | グループに所属するユーザのリスト<br>構築で使用しない | 
+| &nbsp;&nbsp;&nbsp;&nbsp;`user_name` | グループに所属するユーザーのリスト<br>構築で使用しない | 
 | &nbsp;&nbsp;&nbsp;&nbsp;`action` | 構築時の設定<br>present: 作成/更新<br>absent: 削除 | 
 
 ### Example
@@ -134,8 +134,6 @@ VAR_RH_group:
     │                   │      main.yml
     │                   │── files/
     │                   │      extracting.py
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      check.yml
     │                   │      gathering.yml

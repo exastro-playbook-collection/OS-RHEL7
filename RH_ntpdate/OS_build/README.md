@@ -73,8 +73,6 @@ VAR_RH_ntpdate:
     │    └── OS-RHEL7
     │         └── RH_ntpdate/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml
     │                   │      main.yml

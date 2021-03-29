@@ -84,8 +84,6 @@ VAR_RH_networkscripts:
     │    └── OS-RHEL7
     │         └── RH_networkscripts/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml
     │                   │      main.yml

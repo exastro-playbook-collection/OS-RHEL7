@@ -72,8 +72,6 @@ VAR_RH_sysctl:
     │    └── OS-RHEL7
     │         └── RH_sysctl/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      main.yml
     │                   │      modify_property.yml

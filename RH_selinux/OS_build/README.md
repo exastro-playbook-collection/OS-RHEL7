@@ -72,8 +72,6 @@ VAR_RH_selinux:
     │    └── OS-RHEL7
     │         └── RH_selinux/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      main.yml
     │                   │      modify_property.yml

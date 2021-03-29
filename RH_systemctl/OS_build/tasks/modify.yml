@@ -1,5 +1,6 @@
 ---
-- include_tasks: modify_systemctl.yml
-  loop: "{{ VAR_RH_systemctl|flatten(levels=1) }}"
+- name: Execute task. (modify_exe.yml)
+  include_tasks: modify_exe.yml
+  loop: "{{ VAR_RH_systemctl }}"
   loop_control:
-    loop_var: parameter
+    loop_var: loop_item

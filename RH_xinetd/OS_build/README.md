@@ -87,7 +87,7 @@ VAR_RH_xinetd:
     │    └── OS-RHEL7
     │         └── RH_xinetd/
     │              └── OS_build/
-    │                   │── meta/
+    │                   │── defaults/
     │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml

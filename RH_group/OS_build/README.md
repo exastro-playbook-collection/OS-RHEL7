@@ -77,12 +77,12 @@ VAR_RH_group:
     │    └── OS-RHEL7
     │         └── RH_group/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
+    │                   │      check_parameter.yml
+    │                   │      check.yml
     │                   │      main.yml
-    │                   │      modify.yml
     │                   │      modify_group.yml
+    │                   │      modify.yml
     │                   └─ README.md
     └─ master_playbook.yml
 ~~~

@@ -75,8 +75,6 @@ VAR_RH_rsyslog:
     │    └── OS-RHEL7
     │         └── RH_rsyslog/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml
     │                   │      main.yml

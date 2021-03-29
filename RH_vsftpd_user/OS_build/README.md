@@ -1,7 +1,7 @@
 Ansible Role: OS-RHEL7/RH_vsftpd_user/OS_build
 =======================================================
 # Description
-本ロールは、RHEL7に関するFTPユーザ設定についての情報の設定を行います。
+本ロールは、RHEL7に関するFTPユーザー設定についての情報の設定を行います。
 
 # Supports
 - 管理マシン(Ansibleサーバ)
@@ -75,8 +75,6 @@ VAR_RH_vsftpd_user:
     │    └── OS-RHEL7
     │         └── RH_vsftpd_user/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml
     │                   │      main.yml

@@ -72,8 +72,6 @@ VAR_RH_ntpd:
     │    └── OS-RHEL7
     │         └── RH_ntpd/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_flat.yml
     │                   │      main.yml

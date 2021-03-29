@@ -78,8 +78,6 @@ VAR_RH_vsftpd:
     │    └── OS-RHEL7
     │         └── RH_vsftpd/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      main.yml
     │                   │      modify_property.yml

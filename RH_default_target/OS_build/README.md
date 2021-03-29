@@ -69,8 +69,6 @@ VAR_RH_default_target:
     │    └── OS-RHEL7
     │         └── RH_default_target/
     │              └── OS_build/
-    │                   │── meta/
-    │                   │      main.yml
     │                   │── tasks/
     │                   │      build_default_target.yml
     │                   │      main.yml
